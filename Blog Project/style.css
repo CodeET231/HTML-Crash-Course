@@ -1,0 +1,40 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+.title{
+    font-size: 23px;
+color: #6d6d6d;
+}
+.body-text{
+    font-size: 23px;
+    font-family: sans-serif;
+}
+h1{
+      width: 59%;
+}
+img{
+    width: 100%;
+}
+.logo{
+    max-width: 12%;
+border-radius: 50%;
+margin: auto;
+position: relative;
+text-align: center;
+}
+.mt-100{
+margin-top: 100px;
+}
+.text-center{
+    text-align: center;
+}
+.icon-container{
+    text-align: center;
+}
+.icon-container>img{
+    max-width: 2%;
+}
+blockquote{
+    font-family: cursive;
+}

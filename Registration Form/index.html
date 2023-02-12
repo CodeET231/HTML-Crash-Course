@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Form Container -->
+    <div class="form__container">
+        <!-- Form Header -->
+        <div class="form__header">
+            <img src="./Assets/schoolLogo.png" alt="School Logo">
+            <h1>Student Registration Form</h1>  
+        </div><br><hr id="header--line"><br><br>
+        <!-- Registration Form Body -->
+        <form action="" class="form--body">
+            <!-- Full Name Input -->
+            <div class="name--input">
+                <label for="name">Full Name:</label><br>
+                <input class="input--class" id="name" type="text" placeholder="John S. Smith">
+            </div><br>
+            <!-- Email Input -->
+            <div class="email--input">
+                <label for="email">Email:</label><br>
+                <input class="input--class" id="email" type="email" placeholder="try@gmail.com">
+            </div><br>
+            <!-- Phone & Address Input -->
+            <div class="phone--input">
+                <label for="phone">Phone:</label><br>
+                <input class="input--class" id="phone" type="tel" placeholder="+23179777777">
+            </div><br>
+                <!-- Address input -->
+            <div class="address--input">
+                <label for="address">Address:</label><br>
+                <input class="input--class" id="address" type="text" placeholder="Gikondo">
+            </div><br>
+            <!-- Nationalit and Program -->
+            <div class="nationality--input">
+                <label for="nationality">Nationality:</label><br>
+                <select class="input--class" id="nationality">
+                    <option selected="true" disabled="disable">Please Select</option>
+                    <option>Liberia</option>
+                    <option>Rwanda</option>
+                    <option>Ghana</option>
+                    <option>America</option>
+                    <option>Congo</option>
+                </select>
+            </div><br>
+                <!-- Program input -->
+            <div class="program--input">
+                <label for="program">Programs:</label><br>
+                    <select class="input--class" id="program">
+                        <option selected="true" disabled="disable" >Please Select</option>
+                        <option>Associates</option>
+                        <option>BSC</option>
+                        <option>Masters</option>
+                    </select>
+            </div><br>
+            <!-- Courses selection -->
+            <div class="courses--input">
+                <label >Select Course:</label><br>
+                <input name="course" id="economics" type="radio">
+                <label for="economics">Economics</label><br>
+                <input name="course" id="software" type="radio">
+                <label for="software">Software Engineering</label><br>
+                <input name="course" id="networking" type="radio">
+                <label for="networking">Computer Networking</label><br>
+                <input name="course" id="accounting" type="radio">
+                <label for="accounting">Accounting</label><br>
+                <input name="course" id="ism" type="radio">
+                <label for="ism">ISM</label><br>
+            </div><br>
+            <!-- Hobbies selection -->
+            <div class="hobbies--input">
+                <label >Hobbies:</label><br>
+                <input id="singing" type="checkbox">
+                <label for="singing">Singing</label><br>
+                <input id="dancing" type="checkbox">
+                <label for="dancing">Dancing</label><br>
+                <input id="reading" type="checkbox">
+                <label for="reading">Reading</label><br>
+                <input id="writing" type="checkbox">
+                <label for="writing">Writing</label><br>
+                <input id="cooking" type="checkbox">
+                <label for="cooking">Cooking</label>
+            </div><br>
+            <!-- Comments or Suggestions Input -->
+            <div class="comments--input">
+                <label for="comments">Comments/Suggestions:</label><br>
+                <textarea class="input--class" id="comments" cols="30" rows="10"></textarea>
+            </div><br>
+            <!-- submit Button -->
+            <button class="submit--btn" type="submit">Submit Form</button>
+        </form>
+    </div>
+</body>
+</html>
